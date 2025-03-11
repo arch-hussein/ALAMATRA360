@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-out-street">
+        <li class="text">OUT STREET</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-out">
+        <li class="text">out</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-reception_1">
+        <li class="text">reception_1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-corridor">
+        <li class="text">CORRIDOR</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-staircase">
+        <li class="text">staircase</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-teacher-room">
+        <li class="text">teacher room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-library-and-corridor">
+        <li class="text">library and corridor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-library">
+        <li class="text">library</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-class-room1_1">
+        <li class="text">class room1_1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-seminar-and-class">
+        <li class="text">seminar and class</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-class-2">
+        <li class="text">CLASS 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-class-3">
+        <li class="text">CLASS 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-firstfloor">
+        <li class="text">firstfloor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-coworking-1">
+        <li class="text">coworking 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-co-working-2">
+        <li class="text">co working 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-panorama">
+        <li class="text">Panorama</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-director-office">
+        <li class="text">director office</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-meeting1">
+        <li class="text">meeting1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-meting2">
+        <li class="text">METING2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-director-office">
+        <li class="text">director office</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-roof-top">
+        <li class="text">roof top</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-gaming-spot">
+        <li class="text">gaming spot</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-studeio">
+        <li class="text">STUDEIO</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
